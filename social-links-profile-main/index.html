@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./assets/images/favicon-32x32.png">
+  
+  <title>Frontend Mentor | Social links profile</title>
+
+  <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
+  <style>
+      body,html{
+        height: 100%;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+        background-color:  hsl(0, 0%, 8%);
+      }
+      *{
+        box-sizing: border-box;
+      }
+      .container{
+        display:flex;
+        align-items: center;
+        justify-content: center; 
+        border-radius: 12px;
+        background-color: hsl(0, 0%, 12%);
+        height:600px;
+        width:400px;
+      }
+      .ct2{
+       text-align: center;
+      }
+      .container div img{
+        border-radius: 50%;
+        width: 100px;
+        height: 100px;
+      }
+      .heads{
+        margin-top: 5px;
+        color: hsl(0, 0%, 100%);
+        font-family:'Times New Roman', Times, serif;
+        font-size: 25px;
+        letter-spacing: 2px;
+        font-weight: 400;
+      }
+      .heads1{
+        margin-top: 5px;
+        color: hsl(75, 94%, 57%);
+        font-family:'Times New Roman', Times, serif;
+        font-size: 15px;
+        letter-spacing: 2px;
+        text-align: center;
+      }
+      .heads2{
+        margin-top: 30px;
+        color: hsl(0, 0%, 100%);
+        font-family:'Times New Roman', Times, serif;
+        font-size: 18px;
+        letter-spacing: 2px;
+        margin-bottom: 25px;
+      }
+      .one{
+        margin-left: 50px;
+        border-radius: 12px;
+        padding:15px;
+        color: hsl(0, 0%, 100%);
+        margin-top: 10px;
+        background-color:hsl(0, 0%, 20%) ;
+        text-align: center;
+        max-width: 280px;
+      }
+      .one:hover{
+        cursor: pointer;
+        background-color: hsl(75, 94%, 57%);
+        color:hsl(0, 0%, 8%);
+      }
+      @media screen and (max-width: 600px) {
+    .container {
+        width: 80%;
+        padding: 10px;
+        font-size: 14px;
+    }
+}
+       </style>
+</head>
+<body>
+<div class ="container">
+  <div class="ct2">
+    <img src="../social-links-profile-main/assets/images/avatar-jessica.jpeg" alt="jesica-img">
+  <div class="heads">Jessica Randall</div>
+  <div class="heads1">London, United Kingdom</div>
+<div class="heads2">"Front-end developer and avid reader."</div>
+
+<div class="one"> GitHub</div>
+<div class="one"> Frontend Mentor</div>
+<div class="one"> LinkedIn</div>
+<div class="one"> Twitter</div>
+<div class="one"> Instagram</div>
+</div>
+</div>
+
+  <!-- <div class="attribution">
+    Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
+    Coded by <a href="#">Your Name Here</a>.
+  </div> -->
+</body>
+</html>
